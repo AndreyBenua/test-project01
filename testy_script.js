@@ -1,2 +1,2 @@
 let s = "testy";
-console.log(s);
+document.write(s);
