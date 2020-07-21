@@ -1,2 +1,2 @@
 let s = "testy";
-document.write(s);
+alert(s);
