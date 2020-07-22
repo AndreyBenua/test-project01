@@ -13,7 +13,12 @@ let b = prompt('На сколько оцените его?', '');
 let c = prompt('Один из последних просмотренных фильмов?', '');
 let d = prompt('На сколько оцените его?', '');
 
+let x = prompt('Ваш любимый актёр?', '');
+let y = prompt('На сколько оцените его?', '');
+
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
+
+personalMovieDB.actors[x] = y;
 
 console.log(personalMovieDB);
