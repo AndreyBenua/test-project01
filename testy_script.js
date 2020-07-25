@@ -1,24 +1,12 @@
-let numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+'use strict';
+let metallica = ['het','ham','truch'];
+console.log(metallica);
 
-let personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+let a = prompt('Брать ли Ульриха?', '');
 
-let a = prompt('Один из последних просмотренных фильмов?', '');
-let b = prompt('На сколько оцените его?', '');
-let c = prompt('Один из последних просмотренных фильмов?', '');
-let d = prompt('На сколько оцените его?', '');
-
-let x = prompt('Ваш любимый актёр?', '');
-let y = prompt('На сколько оцените его?', '');
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-personalMovieDB.actors[x] = y;
-
-console.log(personalMovieDB);
+if(a == 'да'){
+    metallica.push('ulr');
+    console.log(metallica);
+}else{
+    console.log(metallica);
+}
